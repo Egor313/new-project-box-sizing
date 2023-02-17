@@ -141,24 +141,33 @@ button {
 }
 
 .title-card {
-    color: #242424;
+    color: darkmagenta;
     text-align: center;
     margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.title-card a {
+    color: inherit;
+    text-decoration: none;
+
 }
 
 .down-title {
-    /* color: darkblue; */
+    color: darkmagenta;
     text-align: center;
     font-size: 16px;
+    font-weight: 600;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 .card {
     display: inline-block;
     width: 400px;
-    height: 300px;
-    /* background: #f; */
     font-size: 20px;
+    text-align: center;
 
 }
 
@@ -172,6 +181,7 @@ button {
     color: purple;
     border-radius: 4px;
     padding: 5px;
+    box-shadow: 6px -3px 10px 4px rgb(171, 167, 167);
 }
 
 .text {
@@ -190,16 +200,17 @@ p + p {
 /* Image */
 
 .image {
-    width: 100%;
-    height: 100%;
+    display: block;
+    height: 150px;
     overflow: hidden;
     border-radius: 4px;
-    box-shadow: 1px 1px 10px 2px #000;
     margin-bottom: 20px;
 }
 
 .image img {
     object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 /* _____________________________________- */
